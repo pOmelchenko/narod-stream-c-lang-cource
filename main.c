@@ -2,7 +2,8 @@
 
 int main()
 {
-    printf("Hello world!!!\r\n");
+    printf("String ");
+    printf("%s\r\n", "Hello world!!!");
 
     return 0;
 }
