@@ -13,3 +13,4 @@ stream](https://www.youtube.com/watch?v=nFt3pJ7j8jE&list=PLJTlt64jBcCvN4H91HAK82
     - после генерации ассемблерного кода: `gcc -o main main.s`
     - из исходного кода: `gcc -o main main.c`
 - [x] работа с выводом в поток через модификаторы
+- [x] примеры использования комментариев
