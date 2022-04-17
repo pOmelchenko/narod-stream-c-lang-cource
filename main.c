@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    char strings[3][32] = {
+    char * strings[] = {
         "Hello world!\n",
         "Hi!\n",
         "Pavel!\n"
