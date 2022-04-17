@@ -1,19 +1,14 @@
 #include <stdio.h>
+#include <string.h>
 
 int main() {
-    int array[4][3] = {
-        {1, 2, 3},
-        {4, 5, 6},
-        {7, 8, 9},
-        {10, 11, 12}
-    };
+    char strings[3][30];
 
-    for (int i = 0; i < 4; i++) {
-        for (int j = 0; j < 3; j++) {
-            printf("%d ", array[i][j]);
-        }
-        printf("\n");
-    }
+    strcpy(strings[0], "Hello world!\n");
+    strcpy(strings[1], "Hi!\n");
+    strcpy(strings[2], "Pavel!\n");
+
+    printf("%s%s%s", strings[0], strings[1], strings[2]);
 
     return 0;
 }
