@@ -1,23 +1,19 @@
 #include <stdio.h>
 
 int main() {
-    int number;
+    unsigned char i;
+    int array[6];
 
-    printf("Чтобы выйти из приложения введите -1\n\n");
+    array[0] = 10;
+    array[1] = 25;
+    array[2] = 33;
+    array[3] = 71;
+    array[4] = 54;
+    array[5] = 99;
 
-    while (1) {
-        printf("Введите число ");
-        scanf("%d", &number);
-
-        if (number < 0) {
-            printf("Выходим...\n");
-            return 0;
-        } else if (number <= 10) {
-            printf("Ваше число меньше либо равно 10\n");
-        } else if (number <= 30) {
-            printf("Ваше число меньше либо равно 30\n");
-        } else {
-            printf("Ваше число больше 30\n");
-        }
+    for (i = 0; i < 6; i++) {
+        printf("%d ", array[i]);
     }
+
+    return 0;
 }
