@@ -1,8 +1,7 @@
 # C-lang
 
 Тут распологаются наработки и эсперименты по изучению языка `C`, который 
-преподается на канале [narod 
-stream](https://www.youtube.com/watch?v=nFt3pJ7j8jE&list=PLJTlt64jBcCvN4H91HAK82-3-QwaqnxlF).
+преподается на канале [narod stream](https://www.youtube.com/watch?v=nFt3pJ7j8jE&list=PLJTlt64jBcCvN4H91HAK82-3-QwaqnxlF).
  
 - [x] установка окружения под windows
 - [x] написал первую программу, которую скомпилировал разными вариантами
@@ -24,3 +23,5 @@ stream](https://www.youtube.com/watch?v=nFt3pJ7j8jE&list=PLJTlt64jBcCvN4H91HAK82
 - [x] научился работать с арефметическими операциями
 - [x] научился работать с циклами
 - [x] научился работать с логическими операторами
+- [x] научился работать с условным оператором
+  - а так же с работой ввода пользовательских данных
