@@ -1,22 +1,19 @@
 #include <stdio.h>
 
 int main() {
-    unsigned char i;
-    char string[10] = {'H', 'e', 'l', 'l', 'o', '!', '\0'};
+    int array[4][3] = {
+        {1, 2, 3},
+        {4, 5, 6},
+        {7, 8, 9},
+        {10, 11, 12}
+    };
 
-    for (i = 0; i < 10; i++) {
-        printf("%d ", string[i]);
+    for (int i = 0; i < 4; i++) {
+        for (int j = 0; j < 3; j++) {
+            printf("%d ", array[i][j]);
+        }
+        printf("\n");
     }
-
-    printf("\n\n");
-
-    for (i = 0; i < 10; i++) {
-        printf("%c ", string[i]);
-    }
-
-    printf("\n\n");
-
-    printf("%s", string);
 
     return 0;
 }
