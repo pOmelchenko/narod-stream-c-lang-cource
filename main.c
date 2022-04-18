@@ -1,13 +1,25 @@
 #include <stdio.h>
 
 int main() {
-    char * strings[] = {
-        "Hello world!\n",
-        "Hi!\n",
-        "Pavel!\n"
-    };
+    int number = 0;
 
-    printf("%s%s%s", strings[0], strings[1], strings[2]);
+    while (1) {
+        printf("%s\n", "Enter number 10, 20 or 30 ");
+        scanf("%d", &number);
 
-    return 0;
+        switch (number) {
+            case 10:
+                printf("Hello 10\n");
+                break;
+            case 20:
+                printf("Hello 20\n");
+                break;
+            case 30:
+                printf("Hello 30\n");
+                break;
+            default:
+                printf("Wrong case\n");
+                return 0;
+        }
+    }
 }
