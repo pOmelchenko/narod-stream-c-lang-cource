@@ -1,12 +1,11 @@
 #include <stdio.h>
 
 int main() {
-    int n, res;
+    int n;
 
     printf("Please enter an integer\n");
     scanf("%d", &n);
-    res = (n>=0) ? n : -n;
-    printf("The modulis of the entered number is %d", res);
+    printf("The number entered is %s than 10\n", (n > 10) ? "greater" : "less than or equal");
 
     return 0;
 }
