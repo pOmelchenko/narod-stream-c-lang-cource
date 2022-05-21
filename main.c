@@ -5,7 +5,14 @@ int main() {
 
     printf("Please enter an integer\n");
     scanf("%d", &n);
-    printf("The number entered is %s than 10\n", (n > 10) ? "greater" : "less than or equal");
+    printf(
+        "The number entered is %s10\n",
+        (n > 10)
+            ? "greater than "
+            : (n == 10)
+                ? ""
+                : "less than "
+    );
 
     return 0;
 }
