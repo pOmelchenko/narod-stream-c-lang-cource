@@ -6,10 +6,9 @@ float my_div(float a, float b) {
 
 int main() {
     unsigned int i = 65535;
-    unsigned char c = i;
-    unsigned int j = c;
+    unsigned long long j = i;
 
-    printf("Values is %u, %u, %u", i, c, j);
+    printf("Values is %u, %llu", i, j);
 
     return 0;
 }
