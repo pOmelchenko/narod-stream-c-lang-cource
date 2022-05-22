@@ -3,7 +3,7 @@
 int main() {
     int i = 8;
     int j = 3;
-    float f_res = (float) i / (float) j;
+    float f_res = (float) i / j;
     printf("Result is %.10f", f_res);
 
     return 0;
