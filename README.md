@@ -43,3 +43,5 @@
 - [x] получил опыт работы с конструкцией `swich case`
 ### [11](https://www.youtube.com/watch?v=rs_Jb51WjqE)
 - [x] научился работать с тернарным оператором
+### [12](https://www.youtube.com/watch?v=sEdlWJDPG4w)
+- [x] научился работать с пользовательскими функциями

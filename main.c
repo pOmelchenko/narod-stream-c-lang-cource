@@ -1,27 +1,26 @@
 #include <stdio.h>
 
+void my_func() {
+    printf("Hello from my_func\n");
+}
+
+void print_sum(int, int);
+int return_sum(int, int);
+
 int main() {
-    int n = 0;
-    char *strnum;
+    my_func();
+    print_sum(2, 5);
 
-    while ((n>=0) && (n<=10)) {
-        printf("Please enter an integer\n");
-        printf("To exit the program, enter number greater than 10 ...\n");
-        scanf("%d", &n);
-        strnum = n == 0 ? "zero" :
-                 n == 1 ? "one" :
-                 n == 2 ? "two" :
-                 n == 3 ? "three" :
-                 n == 4 ? "four" :
-                 n == 5 ? "five" :
-                 n == 6 ? "six" :
-                 n == 7 ? "seven" :
-                 n == 8 ? "eight" :
-                 n == 9 ? "nine" :
-                 n == 10 ? "ten" :
-                 "greater than 10 or less than 0";
-        printf("The number entered is %s.\n", strnum);
-    }
-
+    int x = 2;
+    int y = 5;
+    printf("return_sum: %d + %d = %d\n", x, y, return_sum(x, y));
     return 0;
+}
+
+void print_sum(int x, int y) {
+    printf("print_sum: %d + %d = %d\n", x, y, x+y);
+}
+
+int return_sum(int x, int y) {
+    return x + y;
 }
