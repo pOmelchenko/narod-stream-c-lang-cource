@@ -2,6 +2,7 @@
 #include <strings.h>
 
 void int_to_binary(int, char*);
+void print_pretty_result(unsigned char, char, unsigned char);
 
 int main(void) {
     char str1[35] = {};
@@ -10,7 +11,53 @@ int main(void) {
     int_to_binary(n, str1);
     printf("%s\n", str1);
 
+    printf("\n");
+
+    print_pretty_result(
+            0b10101010,
+            '&',
+            0b10001001
+            );
+
+    printf("\n");
+
+    print_pretty_result(
+            0b10101010,
+            '|',
+            0b10001001
+    );
+
+    printf("\n");
+
+    print_pretty_result(
+            0b10101010,
+            '^',
+            0b10001001
+    );
+
     return 0;
+}
+
+void print_pretty_result(unsigned char a, char operation, unsigned char b) {
+    char str1[35] = {};
+    unsigned char res;
+    switch (operation) {
+        case '&':
+            res = a & b;
+            break;
+        case '|':
+            res = a | b;
+            break;
+        case '^':
+            res = a ^ b;
+            break;
+    }
+    int_to_binary(a, str1);
+    printf("  %s\n", str1);
+    int_to_binary(b, str1);
+    printf("%c %s\n", operation, str1);
+    int_to_binary(res, str1);
+    printf("= %s\n", str1);
 }
 
 void int_to_binary(int x, char* in_str) {
