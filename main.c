@@ -4,6 +4,12 @@
 void int_to_binary(int, char*);
 
 int main(void) {
+    char str1[35] = {};
+    int n = 0xE567890F;
+
+    int_to_binary(n, str1);
+    printf("%s\n", str1);
+
     return 0;
 }
 
