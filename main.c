@@ -93,6 +93,49 @@ int main(void) {
 
     printf("\n");
 
+    a = 0b11000011;
+    int_to_binary(a, str1);
+    printf("  76543210\n");
+    printf("%s\n", str1);
+    a |= ((1 << BIT3) | (1 << BIT4));
+    /*
+     * 76543210           76543210
+     * 00000001 << BIT3 = 00001000
+     * |
+     * 00000001 << BIT4 = 00010000
+     * =
+     *                    00011000
+     * than `a`
+     *     76543210
+     * a = 11000011
+     *   | 00011000
+     * a = 11011011
+     */
+    printf("set bit3 and bit4 ot 1\n");
+    int_to_binary(a, str1);
+    printf("%s\n", str1);
+    printf("unset bit1 and bit6 ot 1\n");
+    a &= ~((1 << BIT1) | (1 << BIT6));
+    /*
+     * 76543210           76543210
+     * 00000001 << BIT1 = 00000010
+     * |
+     * 00000001 << BIT6 = 01000000
+     * =
+     *                    01000010
+     * ~
+     *                    10111101
+     * than `a`
+     *     76543210
+     * a = 11011011
+     *   & 10111101
+     * a = 10011001
+     */
+    int_to_binary(a, str1);
+    printf("%s\n", str1);
+
+    printf("\n");
+
     return 0;
 }
 
