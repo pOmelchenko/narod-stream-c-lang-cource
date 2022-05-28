@@ -1,6 +1,15 @@
 #include <stdio.h>
 #include <strings.h>
 
+#define  BIT0 0
+#define  BIT1 1
+#define  BIT2 2
+#define  BIT3 3
+#define  BIT4 4
+#define  BIT5 5
+#define  BIT6 6
+#define  BIT7 7
+
 void int_to_binary(int, char*);
 void print_pretty_result(unsigned char, char, unsigned char);
 
