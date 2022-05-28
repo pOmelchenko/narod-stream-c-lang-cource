@@ -35,6 +35,46 @@ int main(void) {
             0b10001001
     );
 
+    printf("\n");
+
+    unsigned char a, res;
+
+    a = 0b00111000;
+    res = a >> 2;
+    int_to_binary(a, str1);
+    printf("  %s >> 2\n", str1);
+    int_to_binary(res, str1);
+    printf("= %s\n", str1);
+
+    printf("\n");
+
+    a = 0b00111000;
+    res = a << 2;
+    int_to_binary(a, str1);
+    printf("  %s << 2\n", str1);
+    int_to_binary(res, str1);
+    printf("= %s\n", str1);
+
+    printf("\n");
+
+    a = 0b00111000;
+    res = a >> 4;
+    int_to_binary(a, str1);
+    printf("  %s >> 4\n", str1);
+    int_to_binary(res, str1);
+    printf("= %s\n", str1);
+
+    printf("\n");
+
+    a = 0b00111000;
+    res = a << 4;
+    int_to_binary(a, str1);
+    printf("  %s << 4\n", str1);
+    int_to_binary(res, str1);
+    printf("= %s\n", str1);
+
+    printf("\n");
+
     return 0;
 }
 
