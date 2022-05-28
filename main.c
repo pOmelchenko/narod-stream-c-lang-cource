@@ -75,6 +75,15 @@ int main(void) {
 
     printf("\n");
 
+    a = 0b00111000;
+    res = ~a;
+    int_to_binary(a, str1);
+    printf("  ~%s\n", str1);
+    int_to_binary(res, str1);
+    printf("=  %s\n", str1);
+
+    printf("\n");
+
     return 0;
 }
 
