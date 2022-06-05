@@ -94,7 +94,7 @@
      0b10010010
     ```
   - [x] написана функция преобразования числа в строковое представление в битовом виде
-- [15.2](https://www.youtube.com/watch?v=eiGzg5x7Sjg)
+### [15.2](https://www.youtube.com/watch?v=eiGzg5x7Sjg)
   - [x] очень много практики по битовым операциям
-- [16](https://www.youtube.com/watch?v=HlPMZD2ib1k)
+### [16](https://www.youtube.com/watch?v=HlPMZD2ib1k)
   - [x] работа с операторами присваивания
