@@ -98,3 +98,7 @@
   - [x] очень много практики по битовым операциям
 ### [16](https://www.youtube.com/watch?v=HlPMZD2ib1k)
   - [x] работа с операторами присваивания
+### [17](https://www.youtube.com/watch?v=ch1LkDfwE48)
+  - [x] отработал функционал приоритетов операций
+### [18](https://www.youtube.com/watch?v=XJt68cFFmI0)
+  - [x] вспомнил способы управления потоком через `break`, `continue` и `goto`
