@@ -14,3 +14,6 @@ ariph.o: ariph.c ariph.h
 utils.o: utils.c utils.h
 	$(CC) -O0 -g3 -Wall -c utils.c
 	$(CC) -masm=intel -g3 -Wall -c utils.c -S
+
+clean:
+	rm -rf *.i *.o *.s main
