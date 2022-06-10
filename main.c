@@ -15,7 +15,7 @@ int main(void) {
 
     int a = 0b00111000, b = 0b10000010;
 
-    int bin_res = a | b ^ 1;
+    int bin_res = a | b >> 1;
 
     int_to_binary(a, str);
     printf("Value is %s\n", str);
