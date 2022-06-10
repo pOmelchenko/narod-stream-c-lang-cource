@@ -102,3 +102,11 @@
   - [x] отработал функционал приоритетов операций
 ### [18](https://www.youtube.com/watch?v=XJt68cFFmI0)
   - [x] вспомнил способы управления потоком через `break`, `continue` и `goto`
+### [19](https://www.youtube.com/watch?v=HPni4P9ahHo)
+  - [x] разобрался с многомодульным кодом
+### [20.1](https://www.youtube.com/watch?v=jC5k-oGlhlg)
+  - [x] добавил в проект `Makefile`
+### [20.2](https://www.youtube.com/watch?v=KT3TgLcODQA)
+  - [x] добавил отслеживание изменений в модулях
+### [21](https://www.youtube.com/watch?v=LUPw6dBIs3g)
+  - [x] 
