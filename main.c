@@ -1,29 +1,27 @@
 #include "main.h"
 
+float res;
+char str1[30] = {};
+float yf, zf;
+
+void print_res(char str[]);
+
 int main(void) {
     float xf = 8;
-    float yf = 3;
-    float zf = 2;
+    yf = 3;
+    zf = 2;
 
-    float res = xf + my_div(yf, zf);
-    printf("Value is %.5f\n", res);
+    res = xf + my_div();
+    sprintf(str1, "Value is ");
+    print_res(str1);
 
-    res = xf / my_sum(yf, zf);
-    printf("Value is %.5f\n", res);
-
-    char str[35] = {};
-
-    int a = 0b00111000, b = 0b10000010;
-
-    int bin_res = a | b >> 1;
-
-    int_to_binary(a, str);
-    printf("Value is %s\n", str);
-    int_to_binary(b, str);
-    printf("Value is %s\n", str);
-    printf("===================\n");
-    int_to_binary(bin_res, str);
-    printf("Value is %s\n", str);
+    res = xf / my_sum();
+    sprintf(str1, "Value is ");
+    print_res(str1);
 
     return 0;
+}
+
+void print_res(char str[]) {
+    printf("%s %.5f\n", str, res);
 }
