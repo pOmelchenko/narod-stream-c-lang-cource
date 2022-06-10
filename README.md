@@ -109,4 +109,8 @@
 ### [20.2](https://www.youtube.com/watch?v=KT3TgLcODQA)
   - [x] добавил отслеживание изменений в модулях
 ### [21](https://www.youtube.com/watch?v=LUPw6dBIs3g)
-  - [x] 
+  - [x] отработал пример с областью видимости переменных
+### [22.1](https://www.youtube.com/watch?v=VfrFZYvROcs)
+  - [x] просмотрел как ставить `eclipse` в `windows`
+### [22.2](https://www.youtube.com/watch?v=pfEQWvkTCuc)
+  - [x] продолжил смотреть как работать с проектом в `eclipse`
