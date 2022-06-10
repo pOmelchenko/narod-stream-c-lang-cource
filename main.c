@@ -1,39 +1,29 @@
-#include <stdio.h>
+#include "main.h"
 
 int main(void) {
+    float xf = 8;
+    float yf = 3;
+    float zf = 2;
 
-    char item[10] = {};
+    float res = xf + my_div(yf, zf);
+    printf("Value is %.5f\n", res);
 
-    while (1) {
-        printf("menu 1\n");
-        printf("menu 2\n");
-        printf("menu 3\n");
-        printf("exit 0\n");
+    res = xf / my_sum(yf, zf);
+    printf("Value is %.5f\n", res);
 
-        scanf("%s", item);
+    char str[35] = {};
 
-        if (item[0] > '3' || item[0] < '0') {
-            printf("try again\n");
-            continue;
-        }
+    int a = 0b00111000, b = 0b10000010;
 
-        if (item[0] == '0') {
-            printf("bye..\n");
-            break;
-        }
+    int bin_res = a | b ^ 1;
 
-        switch (item[0]) {
-            case '1':
-                printf("el 1\n");
-                break;
-            case '2':
-                printf("el 2\n");
-                break;
-            case '3':
-                printf("el 3\n");
-                break;
-        }
-    }
+    int_to_binary(a, str);
+    printf("Value is %s\n", str);
+    int_to_binary(b, str);
+    printf("Value is %s\n", str);
+    printf("===================\n");
+    int_to_binary(bin_res, str);
+    printf("Value is %s\n", str);
 
     return 0;
 }
