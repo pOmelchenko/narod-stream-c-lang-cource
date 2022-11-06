@@ -6,7 +6,7 @@ set(CMAKE_C_STANDARD 11)
 
 include_directories(.)
 
-add_executable(main main.c ariph.c utils.c)
+add_executable(main main.c utils.c)
 
 add_compile_options(
         -Wall
