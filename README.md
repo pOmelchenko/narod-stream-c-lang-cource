@@ -114,3 +114,7 @@
   - [x] просмотрел как ставить `eclipse` в `windows`
 ### [22.2](https://www.youtube.com/watch?v=pfEQWvkTCuc)
   - [x] продолжил смотреть как работать с проектом в `eclipse`
+### [23.1](https://www.youtube.com/watch?v=D31LDXsCTk8&list=PLJTlt64jBcCvN4H91HAK82-3-QwaqnxlF&index=29)
+  - [x] Выслушал много водички про эклипс и о том какие IDE лучше =/
+### [23.2](https://www.youtube.com/watch?v=9HvAk6mkL2g&list=PLJTlt64jBcCvN4H91HAK82-3-QwaqnxlF&index=30)
+  - [ ] отработал примеры на тему времени жизни данных `static`.
