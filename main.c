@@ -1,27 +1,24 @@
 #include "main.h"
 
 int main(void) {
-    auto char str1[35] = {};
-    auto int a = 0b00111000, b = 0b10000010;
-    auto int res = a | b >> 1;
-    int_to_binary(a, str1);
-    printf("Value is %s\n", str1);
-    int_to_binary(b, str1);
-    printf("Value is %s\n", str1);
-    printf("=========\n");
-    int_to_binary(res, str1);
-    printf("Value is %s\n", str1);
-
-    int aa = 10;
-    int bb = 5;
-
-    if (aa < bb) {
-        unsigned int rr = 42;
-        printf("n = %d\n", rr);
-    } else {
-        unsigned int rr = 10;
-        printf("n = %d\n", rr);
+    for (int i = 0; i < 3; i++) {
+        for (int j = 0; j < 3; j++) {
+            static int n = 1;
+            printf("%d ", n);
+            n++;
+        }
+        printf("\n");
     }
 
     return 0;
 }
+
+// static
+// movl 0x42c9(%rip), %esi;
+
+// auto
+// movl $0x1, -0x10(%ebp)
+
+// register
+// movl $0x1, -0x10(%rbp)
+
