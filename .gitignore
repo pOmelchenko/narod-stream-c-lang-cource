@@ -1,6 +1,2 @@
-*build*/
-main*
-*.out
-*.i
-*.o
-*.s
+/*build*/
+/main.*
