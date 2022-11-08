@@ -3,5 +3,6 @@
 
 #include <stdio.h>
 #include <utils.h>
+#include <ariph.h>
 
 #endif //MAIN_MAIN_H
